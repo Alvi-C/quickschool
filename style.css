@@ -82,3 +82,16 @@ h5 {
         left: 0;
     }
 }
+
+
+.call-to-action-bg {
+    width: 100%;
+    height: 250px;
+    color: aquamarine;
+}
+
+.call-to-action-bg button {
+    background-color: #ffbb1d;
+    color: white;
+    border: none;
+}
