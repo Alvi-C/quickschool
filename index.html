@@ -20,50 +20,123 @@
     <!-- Header start -->
     <header>
         <!-- Nav bar start -->
-        <section>
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid px-md-5 py-2">
-                    <a class="navbar-brand" href="#">
-                        <img src="images/quick-school-logo.png" alt="" width="250">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content between" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item px-2">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item px-2">
-                                <a class="nav-link" href="#">Courses</a>
-                            </li>
-                            <li class="nav-item px-2">
-                                <a class="nav-link" href="#">Study Resources</a>
-                            </li>
-                            <li class="nav-item px-2">
-                                <a class="nav-link" href="#">Success Stories</a>
-                            </li>
-                            <li class="nav-item px-2">
-                                <a class="nav-link" href="#">About us</a>
-                            </li>
-                            <li class="nav-item px-2">
-                                <a class="nav-link">Contact us</a>
-                            </li>
-                        </ul>
-                        <ul class="navbar-nav ms-auto"> <button class="btn btn-outline-info">Register</button> </ul>
+        <section class="container">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid py-2">
+                        <a class="navbar-brand" href="#">
+                            <img src="images/quick-school-logo.png" alt="" width="250">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content between" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item px-2">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item px-2">
+                                    <a class="nav-link" href="#">Courses</a>
+                                </li>
+                                <li class="nav-item px-2">
+                                    <a class="nav-link" href="#">Study Resources</a>
+                                </li>
+                                <li class="nav-item px-2">
+                                    <a class="nav-link" href="#">Success Stories</a>
+                                </li>
+                                <li class="nav-item px-2">
+                                    <a class="nav-link" href="#">About us</a>
+                                </li>
+                                <li class="nav-item px-2">
+                                    <a class="nav-link">Contact us</a>
+                                </li>
+                            </ul>
+                            <ul class="navbar-nav ms-auto"> <button class="btn btn-outline-dark">Register</button> </ul>
+                        </div>
                     </div>
-                </div>
-            </nav>
+                </nav>
+            </div>
         </section>
         <!-- Nav bar end -->
 
         <!-- Banner start -->
+        <section class="container mb-5">
+            <div class="row">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+
+                    <div class="carousel-inner">
+                        <!-- Slider 1 -->
+                        <div class="carousel-item active" data-bs-interval="5000">
+                            <img src="images/cover/cover-77.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption">
+                                <h1 class="text-start text-uppercase" style="color: white;">
+                                    Online Learning <br>Made Simple
+                                </h1>
+                                <p class="text-start">
+                                    All of our courses are crafted by teachers, researchers and professionals.
+                                </p>
+                                <button type="button" class="btn btn-dark">Get Started</button>
+                            </div>
+                        </div>
+
+                        <!-- Slider 2 -->
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img src="images/cover/cover-33.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption">
+                                <h1 class="text-start text-uppercase">Study in a <br>new way
+                                </h1>
+                                <p class="text-start">
+                                    All of our courses are crafted by teachers, researchers and professionals.
+                                </p>
+                                <button type="button" class="btn btn-dark">Get Started</button>
+                            </div>
+                        </div>
+
+                        <!-- Slider 3-->
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img src="images/cover/cover-11.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption">
+                                <h1 class="text-start text-uppercase">Learn <br>without limit
+                                </h1>
+                                <p class="text-start">
+                                    All of our courses are crafted by teachers, researchers and professionals.
+                                </p>
+                                <button type="button" class="btn btn-dark">Get Started</button>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
         <!-- Banner end -->
     </header>
     <!-- Header end -->
 
+    <!-- Main content start -->
+    <main>
+
+    </main>
+    <!-- Main content end -->
 
 
 

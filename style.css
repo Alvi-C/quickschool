@@ -5,3 +5,71 @@ body {
     font-family: 'Poppins', sans-serif;
 
 }
+
+
+/* -------------------
+------BANNER CSS-----
+---------------------*/
+.carousel-caption {
+    position: absolute;
+    left: 0;
+    width: 30%;
+    top: 30%;
+    margin-left: 10%;
+}
+
+.carousel-caption h1 {
+    font-size: calc(1rem + .5vw + 1.75vw);
+}
+
+
+.carousel-caption button {
+    position: absolute;
+    left: 0;
+}
+
+/* -------------------
+--BANNER MEDIA QUERY--
+---------------------*/
+
+@media screen and (max-width: 575.98px) {
+
+    .carousel-caption {
+        position: absolute;
+        left: 0;
+        width: 80%;
+        top: 0;
+        margin-left: 2%;
+    }
+
+    .carousel-caption h1 {
+        font-size: 3vw;
+    }
+
+    .carousel-caption p {
+        font-size: 2vw;
+    }
+
+    .carousel-caption button {
+        position: absolute;
+        left: 0;
+        width: 80px;
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+
+    .carousel-caption {
+        position: absolute;
+        left: 0;
+        width: 40%;
+        top: 15%;
+        margin-left: 9%;
+    }
+
+    .carousel-caption button {
+        position: absolute;
+        left: 0;
+    }
+}
