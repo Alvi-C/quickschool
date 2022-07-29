@@ -100,3 +100,13 @@ h5 {
     color: white;
     border: none;
 }
+
+/* --------------
+Student feedback
+----------------*/
+
+@media screen and (max-width: 567px) {
+    .card:not(:first-child) {
+        display: none;
+    }
+}
